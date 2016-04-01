@@ -1,0 +1,52 @@
+.column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .column-9, .column-10, .column-11, .column-12 {
+  display: block;
+  margin-bottom: @standard;
+}
+
+.column-1 {
+  width: @column-width;
+}
+.column-2 {
+  width: @column-width * 2;
+}
+.column-3 {
+  width: @column-width * 3;
+}
+.column-4 {
+  width: @column-width * 4;
+}
+.column-5 {
+  width: @column-width * 5;
+}
+.column-6 {
+  width: @column-width * 6;
+}
+.column-7 {
+  width: @column-width * 7;
+}
+.column-8 {
+  width: @column-width * 8;
+}
+.column-9 {
+  width: @column-width * 9;
+}
+.column-10 {
+  width: @column-width * 10;
+}
+.column-11 {
+  width: @column-width * 11;
+}
+.column-12 {
+  width: @column-width * 12 + 1;
+}
+
+.row {
+  .column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .column-9, .column-10, .column-11, .column-12 {
+    display: inline-block;
+  }
+}
+
+.container {
+  width: @column-width * 9;
+  margin: 0 auto;
+}
