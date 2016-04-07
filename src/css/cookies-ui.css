@@ -192,6 +192,8 @@ a {
   border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 4px;
   background: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .accordion-container .accordion-item .accordion-head {
   padding: 10px;
