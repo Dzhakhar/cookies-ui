@@ -1,0 +1,2 @@
+Object.prototype.dropdown = function(){
+}

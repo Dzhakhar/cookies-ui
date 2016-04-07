@@ -1,0 +1,27 @@
+{
+  "name": "cookies-ui",
+  "homepage": "https://github.com/Dzhakhar/cookies-ui",
+  "authors": [
+    "Dzhakhar Ukhaev <dzhakhar.ukhaev@gmail.com>"
+  ],
+  "description": "simple ui/ux web-framework",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "cookies-ui",
+    "ui/ux/",
+    "web-framework",
+    "ui-framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

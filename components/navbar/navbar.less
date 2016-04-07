@@ -1,26 +1,26 @@
 .navbar {
   background: @blue;
-  padding: @standard;
+  padding: @standard-margins;
   border-bottom: 1px solid #ddd;
   min-height: 30px;
-  
+
   .left {
     display: inline-block;
   }
-  
+
   .right {
     float: right;
   }
-  
+
   ul {
     display: inline-block;
     margin: 0;
     padding: 0;
-    
+
     li {
       list-style: none;
       display: inline-block;
-      
+
       a {
         color: #fff;
         display: inline-block;
@@ -29,6 +29,14 @@
           color: darken(#fff, 10%);
         }
       }
+    }
+  }
+
+  .navbar-search {
+    display: inline-block;
+
+    .input:focus {
+      background: #fff;
     }
   }
 }
