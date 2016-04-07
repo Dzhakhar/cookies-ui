@@ -42,12 +42,30 @@
     </div>
   </div>
   <div class="container">
-    <div class="segment column-4">
-
+    <div class="accordion-container">
+      <div class="accordion-item">
+        <div class="accordion-head active">Heading</div>
+        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-head">Heading</div>
+        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+      </div>
+      <div class="accordion-item">
+        <div class="accordion-head">Heading</div>
+        <div class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+      </div>
     </div>
   </div>
 
   <script src='bower_components/jquery/dist/jquery.min.js'></script>
   <script src='components/dropdown/dropdown.js'></script>
+  <script src='components/accordion/accordion.js'></script>
+  <script>
+    $(".accordion-head").accordion({
+      onHover: true,
+      many: true
+    });
+  </script>
 </body>
 </html>
